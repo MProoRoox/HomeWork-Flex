@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    padding: 40px 0;
+}
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.jus_con{
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    gap: 10px;
+}
+
+.coin_box{
+    height: 300px;
+    background-color: blueviolet;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.gap{
+    gap: 30px;
+}
+.text{
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+}
+
+.button{
+    padding: 20px 100px;
+    background-color: grey;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid red;
+}
+.wrap{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.con_box{
+    width: 25%;
+    height: 250px;
+    background-color: darkorchid;
+}
+
+.sidebar{
+    height: 600px;
+    width: 30%;
+    background-color: gray;
+}
+
+.content{
+    height: 600px;
+    width: 70%;
+    gap: 10px;
+}
+.con_box2{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+.con_bxs{
+    height: 300px;
+    flex-basis: 25%;
+    width: 25%;
+    background-color: aqua;
+}
+
+.con_boxes{
+    gap: 10px;
+    width: 100%;
+}
+
+.con_ends{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+}
+.con_start{
+    height: 200px;
+    background-color: black;
+}
+.con_end{
+    background-color: grey;
+    height: 100px;
+}
+
+h1{
+    line-height: 2;
+        
+}
+
